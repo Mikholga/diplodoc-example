@@ -1,15 +1,19 @@
 # Basic "About page" 
+![alt-текст](_images/logo-dark.svg "Rapporto")
 
 This is an example for basic documenation project.
 It contains simple structure with couple of pages (this page, another page) and nested sub-section. 
 
 Diplodoc provides you with unique name how this project can be reached on https://diplodoc.com like 
-"https://common---gh-aje0e4eg9hffg001r5e5.viewer.diplodoc.com/en/" 
+"https://common---gh-aje0e4eg9hffg001r5e5.viewer.diplodoc.com/en/"
+![alt-текст](../../_images/logo-dark.svg "Rapporto")
+
 
 If you would like to extend your project - please refer to [YFM Project Organization guide](https://diplodoc.com/docs/en/project/)
 
 All changes for this project can be done within you public github repository called "diplodoc-example/docs". 
 To make changes and apply them: 
+![alt-текст](doc/en/_images/logo-dark.svg "Rapporto")
 
 - go to your repo under "diplodoc-example/docs" 
 - make changes for project structure or content
