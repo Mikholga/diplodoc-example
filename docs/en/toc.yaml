@@ -11,13 +11,13 @@ navigation:
      leftItems: 
          - text: 'Как все устроено'
            type: 'link'
-           url: '../../how-to/'
+           url: 'anotherpage.md'
          - text: 'Документация'
            type: 'link'
-           url: '../../docs/ru/'
+           url: 'page.md'
          - text: 'Тelegram'
            type: 'link'
-           url: 'https://t.me/diplodoc_ru'
+           url: 'about.md'
        
 items: 
   - name: About
