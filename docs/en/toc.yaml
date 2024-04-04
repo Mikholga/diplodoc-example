@@ -1,5 +1,26 @@
 title: Documentation Project Template
 href: index.yaml
+navigation:
+  logo:
+    url: 'https://rapporto.ru/'
+    dark:
+      icon: 'http://www.w3.org/2000/svg'
+    light:
+      icon: '_images/logo-light.svg'
+  header:
+     leftItems:
+       - text: 'Как все устроено'
+         type: 'link'
+         url: '../../how-to/'
+       - text: 'Документация'
+         type: 'link'
+         url: '../../docs/ru/'
+       - text: 'Тelegram'
+         type: 'link'
+         url: 'https://t.me/diplodoc_ru'
+       - text: 'Github'
+         type: 'link'
+         url: 'https://github.com/diplodoc-platform/'
 items: 
   - name: About
     href: about.md
@@ -11,25 +32,4 @@ items:
     include:
       path: sub-section/toc.yaml
       mode: link
-navigation:
-  logo:
-    url: 'https://rapporto.ru/'
-    dark:
-      icon: 'http://www.w3.org/2000/svg'
-      text: 'Rapporto'
-    light:
-      icon: '_images/logo-light.svg'
-      text: 'Rapporto'
-header:
-    leftItems:
-      - text: 'Relative Link'
-        type: 'link'
-        url: 'https://docs.rapporto.ru/'
-      - text: 'Absolute Link'
-        type: 'link'
-        url: 'https://diplodoc.com/docs/ru/project/'
-    rightItems:
-      - text: 'Other Link'
-        type: 'link'
-        url: 'https://rapporto.ru/'
-      - type: controls
+
