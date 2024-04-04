@@ -15,11 +15,11 @@ navigation:
   logo:
     url: 'https://diplodoc.com'
     dark:
-      icon: 'https://storage.yandexcloud.net/diplodoc-www-assets/logo/ddos-logo-dark.svg'
-      text: 'Diplodoc'
+      icon: '_assets/logo-dark.svg'
+      text: 'Rapporto'
     light:
-      icon: 'https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg'
-      text: 'Diplodoc'
+      icon: 'logo-light.svg'
+      text: '_assets/Rapporto'
 header:
     leftItems:
       - text: 'Relative Link'
