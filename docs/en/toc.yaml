@@ -9,18 +9,17 @@ navigation:
       icon: '_images/logo-light.svg'
   header:
      leftItems:
-       - text: 'Как все устроено'
-         type: 'link'
-         url: '../../how-to/'
-       - text: 'Документация'
-         type: 'link'
-         url: '../../docs/ru/'
-       - text: 'Тelegram'
-         type: 'link'
-         url: 'https://t.me/diplodoc_ru'
-       - text: 'Github'
-         type: 'link'
-         url: 'https://github.com/diplodoc-platform/'
+       items: 
+         - text: 'Как все устроено'
+           type: 'link'
+           url: '../../how-to/'
+         - text: 'Документация'
+           type: 'link'
+           url: '../../docs/ru/'
+         - text: 'Тelegram'
+           type: 'link'
+           url: 'https://t.me/diplodoc_ru'
+       
 items: 
   - name: About
     href: about.md
