@@ -11,13 +11,13 @@ navigation:
      leftItems: 
          - text: 'Как все устроено'
            type: 'link'
-           url: 'anotherpage.md'
+           url: 'anotherpage'
          - text: 'Документация'
            type: 'link'
-           url: 'page.md'
+           url: 'page'
          - text: 'Тelegram'
            type: 'link'
-           url: 'about.md'
+           url: 'about'
        
 items: 
   - name: About
