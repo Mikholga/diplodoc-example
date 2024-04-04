@@ -13,7 +13,7 @@ items:
       mode: link
 navigation:
   logo:
-    url: 'https://diplodoc.com'
+    url: 'https://rapporto.ru/'
     dark:
       icon: '_assets/logo-dark.svg'
       text: 'Rapporto'
