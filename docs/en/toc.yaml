@@ -11,8 +11,6 @@ items:
     include:
       path: sub-section/toc.yaml
       mode: link
-title: Docs navigationExample
-href: index.md
 navigation:
   logo:
     url: 'https://diplodoc.com'
