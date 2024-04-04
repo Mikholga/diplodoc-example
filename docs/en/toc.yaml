@@ -15,10 +15,10 @@ navigation:
   logo:
     url: 'https://rapporto.ru/'
     dark:
-      icon: 'en/_images/logo-dark.svg'
+      icon: 'docs/en/_images/logo-dark.svg'
       text: 'Rapporto'
     light:
-      icon: 'en/_images/logo-light.svg'
+      icon: '_images/logo-light.svg'
       text: 'Rapporto'
 header:
     leftItems:
