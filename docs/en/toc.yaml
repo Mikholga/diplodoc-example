@@ -15,7 +15,7 @@ navigation:
   logo:
     url: 'https://rapporto.ru/'
     dark:
-      icon: '_images/logo-dark.svg'
+      icon: 'http://www.w3.org/2000/svg'
       text: 'Rapporto'
     light:
       icon: '_images/logo-light.svg'
