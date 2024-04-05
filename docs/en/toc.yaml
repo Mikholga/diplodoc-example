@@ -2,11 +2,11 @@ title: Documentation Project Template
 href: index.yaml
 navigation:
   logo:
-    url: 'https://rapporto.ru/'
+    url: 'https://diplodoc.com/'
     dark:
       icon: '_images/logo-dark.svg'
     light:
-      icon: 'en/_images/logo-light.svg'
+      icon: '_images/logo-light.svg'
   header:
      leftItems: 
          - text: 'Как все устроено'
