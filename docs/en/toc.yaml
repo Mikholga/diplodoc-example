@@ -77,51 +77,13 @@ href: index.yaml
           url: 'https://example.com'
         }
       ],
-      rightItems: [
-        {
-          icon: '/page-constructor/story-assets/icon_3_light.svg',
-          items: [
-            {
-              text: 'Russian',
-              type: 'link',
-              url: '/ru'
-            },
-            {
-              text: 'English',
-              type: 'link',
-              url: '/'
-            }
-          ],
-          text: 'Language',
-          type: 'dropdown'
-        },
-        {
-          label: 'Star @gravity-ui/page-constructor on GitHub',
-          text: 'Star',
-          type: 'github-button',
-          url: 'https://github.com/gravity-ui/page-constructor',
-          urlTitle: 'Page Constructor GitHub page. Opens in a new window'
-        },
-        {
-          icon: '/page-constructor/story-assets/icon_2_light.svg',
-          text: 'Link',
-          type: 'link',
-          url: 'https://example.com'
-        },
-        {
-          text: 'Button',
-          theme: 'pseudo',
-          type: 'button',
-          url: 'https://example.com'
-        }
-      ]
     },
     logo: {
       dark: {
-        icon: '/page-constructor/story-assets/icon_1_dark.svg',
+        icon: '_images/logo-dark.svg',
         text: 'Logo Dark'
       },
-      icon: '/page-constructor/story-assets/icon_1_light.svg',
+      icon: '_images/logo-dark.svg',
       light: {
         text: 'Logo Light'
       },
@@ -129,7 +91,7 @@ href: index.yaml
       urlTitle: 'Title'
     }
   }}
-/>
+>
 
 items: 
   - name: About
