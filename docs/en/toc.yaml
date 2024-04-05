@@ -4,9 +4,9 @@ navigation:
   logo:
     url: 'https://diplodoc.com/'
     dark:
-      icon: _images/logo-dark.svg
+      icon: '_images/logo-dark.svg'
     light:
-      icon: _images/logo-light.svg
+      icon: './_images/logo-light.svg'
   header:
      leftItems: 
          - text: 'Как все устроено'
