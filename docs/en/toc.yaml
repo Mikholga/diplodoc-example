@@ -1,24 +1,136 @@
 title: Documentation Project Template
 href: index.yaml
-navigation:
-  logo:
-    url: 'https://diplodoc.com/'
-    dark:
-      icon: _images/logo-dark.svg
-    light:
-      icon: _images/logo-light.svg
-  header:
-     leftItems: 
-         - text: 'Как все устроено'
-           type: 'link'
-           url: 'anotherpage'
-         - text: 'Документация'
-           type: 'link'
-           url: 'page'
-         - text: 'Тelegram'
-           type: 'link'
-           url: 'about'
-       
+<PageConstructor
+  custom={{}}
+  navigation={{
+    header: {
+      leftItems: [
+        {
+          items: [
+            {
+              text: 'Lorem ipsum',
+              type: 'link',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Dolor sit amet',
+              type: 'link',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Consectetur adipiscing',
+              type: 'link',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Ut enim ad minim ',
+              type: 'link',
+              url: 'https://example.com'
+            }
+          ],
+          text: 'Dropdown 1',
+          type: 'dropdown'
+        },
+        {
+          items: [
+            {
+              text: 'Lorem ipsum ',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Dolor sit amet',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Consectetur adipiscing',
+              url: 'https://example.com'
+            },
+            {
+              text: 'Ut enim ad minim ',
+              url: 'https://example.com'
+            }
+          ],
+          text: 'Dropdown2',
+          type: 'dropdown'
+        },
+        {
+          icon: '/page-constructor/story-assets/icon_3_light.svg',
+          text: 'Link with spaces',
+          type: 'link',
+          url: 'https://example.com'
+        },
+        {
+          arrow: true,
+          text: 'Link with arrow',
+          type: 'link',
+          url: 'https://example.com',
+          urlTitle: 'External website. Opens in a new window'
+        },
+        {
+          text: 'Link3',
+          type: 'link',
+          url: 'https://example.com'
+        },
+        {
+          text: 'Link4',
+          type: 'link',
+          url: 'https://example.com'
+        }
+      ],
+      rightItems: [
+        {
+          icon: '/page-constructor/story-assets/icon_3_light.svg',
+          items: [
+            {
+              text: 'Russian',
+              type: 'link',
+              url: '/ru'
+            },
+            {
+              text: 'English',
+              type: 'link',
+              url: '/'
+            }
+          ],
+          text: 'Language',
+          type: 'dropdown'
+        },
+        {
+          label: 'Star @gravity-ui/page-constructor on GitHub',
+          text: 'Star',
+          type: 'github-button',
+          url: 'https://github.com/gravity-ui/page-constructor',
+          urlTitle: 'Page Constructor GitHub page. Opens in a new window'
+        },
+        {
+          icon: '/page-constructor/story-assets/icon_2_light.svg',
+          text: 'Link',
+          type: 'link',
+          url: 'https://example.com'
+        },
+        {
+          text: 'Button',
+          theme: 'pseudo',
+          type: 'button',
+          url: 'https://example.com'
+        }
+      ]
+    },
+    logo: {
+      dark: {
+        icon: '/page-constructor/story-assets/icon_1_dark.svg',
+        text: 'Logo Dark'
+      },
+      icon: '/page-constructor/story-assets/icon_1_light.svg',
+      light: {
+        text: 'Logo Light'
+      },
+      text: 'Logo',
+      urlTitle: 'Title'
+    }
+  }}
+/>
+
 items: 
   - name: About
     href: about.md
