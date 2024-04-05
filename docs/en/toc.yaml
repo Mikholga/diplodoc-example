@@ -4,9 +4,9 @@ navigation:
   logo:
     url: 'https://rapporto.ru/'
     dark:
-      icon: 'https://drive.google.com/file/d/1uV_-jEFCpGo3ZNHJHuMz5YC4jMxLt9Ti/view?usp=sharing'
+      icon: '_images/logo-dark.svg'
     light:
-      icon: 'https://drive.google.com/file/d/1L2VwVXwWdZOkDjLgbYDVMqPI_eZyF3i8/view?usp=sharing'
+      icon: 'en/_images/logo-light.svg'
   header:
      leftItems: 
          - text: 'Как все устроено'
